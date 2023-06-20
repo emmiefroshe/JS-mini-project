@@ -1,4 +1,178 @@
-body{
+/* Jsdom.css */
+
+body {
+    background-color: #EFEAD8;
+    color: black;
+    letter-spacing: 1px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+  
+  #wrapper {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+  }
+  
+  #page-banner {
+    background: #6D9886;
+    padding: 10px 0;
+  }
+  
+  #page-banner form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #page-banner input {
+    box-sizing: border-box;
+    width: 280px;
+    margin: 20px 0;
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    color: black;
+    float: left;
+  }
+  
+  #page-banner .search {
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid black;
+    background: #D0C9C0;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    border-left: 0;
+    width: 50px;
+  }
+  
+  #page-banner .search:hover {
+    background-color: #8a8884;
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: #6D9886;
+    padding: 10px 10px 0 10px;
+  }
+  
+  .nav a {
+    float: left;
+    text-align: center;
+    color: black;
+    padding: 15px 10px 10px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: #628175;
+  }
+  
+  .nav a.icon {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .nav-right {
+    float: right;
+  }
+  
+  #book-list,
+  #add-book {
+    margin: 30px;
+  }
+  
+  #book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #book-list li {
+    padding: 20px;
+    border-left: 5px solid #6D9886;
+    margin: 20px 10px;
+  }
+  
+  #book-list li:hover {
+    border-color: #8a8884;
+  }
+  
+  .delete {
+    float: right;
+    background: #D0C9C0;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    background: #8a8884;
+  }
+  
+  #add-book {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #add-book input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    box-sizing: border-box;
+    float: left;
+  }
+  
+  #add-book button {
+    border: 1px solid black;
+    background: #D0C9C0;
+    padding: 10px 10px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 50px;
+    margin: 20px 0;
+    border-left: 0;
+    color: black;
+  }
+  
+  #add-book button:hover {
+    background-color: #8a8884;
+  }
+  
+  #add-book:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+
+/* body{
     background-color: #EFEAD8;
     color: black;
     letter-spacing: 1px;
@@ -165,4 +339,4 @@ h1, h2{
     content: '';
     display: block;
     clear: both;
-}
+} */
